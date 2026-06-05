@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Env / segredos
+.env
+backend/.env
+
+# Banco e uploads
+*.db
+backend/recorte.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Backups gerados
+backups/
+
+# OS
+.DS_Store
+
+# Demo/screenshots
+screenshots/
+backend/demo.db
+
+# Remotion / video artifacts
+video/out/
+video/test_media.png
+video/props.local.json
+*.mp4
+video/public/
